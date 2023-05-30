@@ -80,16 +80,16 @@ if (totalShoppingCart > 50) {
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   // Alla fine mostra il risultato in console.  
 */
-number1 = 6
+number1 = 7
 number2 = 5
-let number3 = 7
-if (number1 < number2 && number2 < number3) {
+let number3 = 5
+if (number1 <= number2 && number2 <= number3) {
   console.log("l'ordine decresente è ", number3, number2, number1)
-} else if (number2 < number1 && number1 < number3) {
+} else if (number2 <= number1 && number1 <= number3) {
   console.log("l'ordine decresente è ", number3, number1, number2)
-} else if (number3 < number2 && number2 < number1) {
+} else if (number3 <= number2 && number2 <= number1) {
   console.log("l'ordine decresente è ", number1, number2, number3)
-} else if (number1 < number2 && number2 < number3) {
+} else if (number1 <= number2 && number2 <= number3) {
   console.log("l'ordine decresente è ", number3, number2, number1)
 } else if (number3 < number1 && number1 < number2) {
   console.log("l'ordine decresente è ", number2, number1, number3)
