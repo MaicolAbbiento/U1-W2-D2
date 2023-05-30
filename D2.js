@@ -157,8 +157,8 @@ me.skills.pop()
 */
 let numeri = []
 let numero
-for (var i = 0; i < 1; i++) {
-  numeri.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+for (var i = 0; i < 10; i++) {
+  numeri.push(i + 1)
 }
 console.log(numeri)
 /* SCRIVI QUI LA TUA RISPOSTA */
