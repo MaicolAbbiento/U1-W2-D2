@@ -121,7 +121,7 @@ if (number1 % 2 === 0) {
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   */
 let val = 3
-if (val < 10 && val > 5) {
+if (val < 10 && val >= 5) {
   console.log("Meno di 10 maggiore di 5")
 } else if (val < 5) {
   console.log("Meno di 5")
