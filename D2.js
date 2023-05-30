@@ -103,9 +103,9 @@ if (number1 <= number2 && number2 <= number3) {
 */
 let valore = 5
 if (typeof valore === "number") {
-  console.log("si")
+  console.log("si è un numero")
 } else {
-  console.log("no")
+  console.log("no non è un numero")
 }
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
